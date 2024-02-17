@@ -1,0 +1,10 @@
+.Conteiner p{
+    color: blue;
+}
+.Conteiner > p:first-child, .Sub_conteiner > p:first-child{
+    background-color: red;
+}
+
+.Sub_conteiner{
+    font-style: italic;
+}
